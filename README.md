@@ -45,12 +45,12 @@ The project is an example of infrastructure for automation testing of different 
 * MySQL Free Online DB - used for login to Grafana web page
 * [Jenkins](https://www.jenkins.io/)- for tests execution
 * REST Assured - for API testing
-* [Allure](http://allure.qatools.ru/) Reports - as the main reporting system
+* [Allure]() Reports - as the main reporting system
 
 ### Tests Execution:
 > Each of the applications has a few tests for demonstration purpose.
 These tests can be developed in a very simple way, due to a lot of work with the infrastructure.
-[[Sanity Tests]](https://github.com/sashka999/FullStackFinalProject/tree/master/src/test/java/SanityTests)
+[[Sanity Tests]]()
 
 ### _Known Issues:_
 Sometimes can be conflicts with some dependencies the applications are using.
