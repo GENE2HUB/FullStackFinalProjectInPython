@@ -11,13 +11,13 @@ Also the infrastructure allows to work with different kinds of applications.
 **Big advantage of the infrastructure is that it can be easy maintained!**
 
 ### _Project Overview_
-
 The project is an example of infrastructure for automation testing of different kinds of applications:
-* Web based application
+* Desktop application
+* Electron application
 * Mobile application
 * Web API
-* Electron application
-* Desktop application
+* Web based application
+* Web DB
 
 ***
 
