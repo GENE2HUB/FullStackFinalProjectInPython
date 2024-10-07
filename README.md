@@ -23,7 +23,7 @@ The project is an example of infrastructure for automation testing of different 
 
 ### **_Infrastructure project includes using of:_**
 * Page Object Design Pattern
-* Project Layers(Extensions/Work Flows/Test Cases...)
+* Project Layers(Extensions/Work Flows/Test Cases/configuration/ddt/utilities...)
 * Support of Different Clients/Browsers
 * Failure Mechanism
 * Common Functionality
@@ -62,10 +62,8 @@ These tests can be developed in a very simple way, due to a lot of work with the
 ***
 
 ### _Known Issues:_
-* Sometimes can be conflicts with some dependencies the applications are using.
-Hence, the project is for DEMO purpose only. 
-* In production it should be divided into several projects.
-* The mortgage calculator app was initially tested exclusively on Android devices 
+>Mobile application testing:
+The mortgage calculator app was initially tested exclusively on Android devices 
 due to the need for an Apple developer license to distribute on iOS. 
 However, to test the app on an iPhone within our existing infrastructure, 
 simply acquire an Apple developer license and provide the device's unique identifier (UUID). 
