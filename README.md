@@ -1,4 +1,8 @@
-## **Full Stack Test Automation Final Project with Python, Selenium, Appium, Pytest e.t.c**
+## **_Final Project of Full Stack Test Automation Course 2024 with:_**
+>Python, 
+> Selenium, 
+> Appium, Pytest e.t.c
+> 
 [Short Video - Demonstration]()
 ### **_This project created to demonstrate my knowledge and skills in Automation Testing._**
 ***
@@ -54,7 +58,7 @@ The project is an example of infrastructure for automation testing of different 
 
 ***
 
-### Tests Execution:
+### _Tests Execution:_
 > Each of the applications has a few tests for demonstration purpose.
 These tests can be developed in a very simple way, due to a lot of work with the infrastructure.
 [[Sanity Tests]]()
@@ -62,9 +66,11 @@ These tests can be developed in a very simple way, due to a lot of work with the
 ***
 
 ### _Known Issues:_
->Mobile application testing:
-The mortgage calculator app was initially tested exclusively on Android devices 
+### _1.Mobile application testing:_
+>The mortgage calculator app was initially tested exclusively on Android devices 
 due to the need for an Apple developer license to distribute on iOS. 
 However, to test the app on an iPhone within our existing infrastructure, 
 simply acquire an Apple developer license and provide the device's unique identifier (UUID). 
 No modifications to the app's code are required.
+### _2. conflicts between AUT (_Application Under Test_):_
+>Sometimes can be conflicts with some dependencies the applications are using same ports for example Mobile application and Desktop application the same port 4723. Hence, the port Mobile application use was changed to 4724 to solve the dependency. 
