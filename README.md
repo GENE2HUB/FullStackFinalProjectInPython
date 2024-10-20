@@ -1,18 +1,21 @@
-## **_Final Project of Full Stack Test Automation Course 2024 with:_**
->Python, 
-> Selenium, 
-> Appium, Pytest e.t.c
-> 
+## **_Final Project of the 2024 Full Stack Test Automation Course, utilizing:_**
+* Python
+* Selenium
+* Appium
+* Pytest, etc.
+
 [Short Video - Demonstration](https://drive.google.com/file/d/1X5k3uUw-s3gFtWCgLTit5sq33SU3n2K6/view?usp=sharing)
-### **_This project created to demonstrate my knowledge and skills in Automation Testing._**
+### **_This project was created to showcase my knowledge and skills in automation testing._**
 ***
 ### _About_
-The project demonstrates a smart automation infrastructure. It is built in hierarchy order of modules. 
-The modules contain number of classes with methods.
-There are main/common/helpers/actions/page_object modules.
-In this way, the tests can be created in very simple way with a minimum lines of code.
-Also the infrastructure allows to work with different kinds of applications.
-**Big advantage of the infrastructure is that it can be easy maintained!**
+The project showcases a smart automation infrastructure designed with a modular hierarchy. 
+It is organized into various modules, each containing multiple classes with relevant methods. 
+Key modules include main, common, helpers, actions, and page_object, which work together 
+to create a streamlined testing process.
+
+This structure allows tests to be written with minimal lines of code, making the process straightforward and efficient. 
+Additionally, the infrastructure supports integration with different types of applications, providing flexibility across various testing scenarios.
+**A significant advantage of this design is its ease of maintenance, ensuring long-term scalability and adaptability!**
 
 ### _Project Overview_
 The project is an example of infrastructure for automation testing of different kinds of applications:
@@ -27,13 +30,12 @@ The project is an example of infrastructure for automation testing of different 
 
 ### **_Infrastructure project includes using of:_**
 * Page Object Design Pattern
-* Project Layers(Extensions/Work Flows/Test Cases/configuration/ddt/utilities...)
+* Project Layers(Extensions/Work Flows/Test Cases/Configuration/DDT/Utilities...)
 * Support of Different Clients/Browsers
 * Failure Mechanism
 * Common Functionality
 * External Files Support (XML,CSV)
 * Reporting System (including screenshots)
-* Visual Testing
 * DB support
 * CI support  
 
@@ -67,10 +69,13 @@ These tests can be developed in a very simple way, due to a lot of work with the
 
 ### _Known Issues:_
 ### _1.Mobile application testing:_
->The mortgage calculator app was initially tested exclusively on Android devices 
-due to the need for an Apple developer license to distribute on iOS. 
-However, to test the app on an iPhone within our existing infrastructure, 
-simply acquire an Apple developer license and provide the device's unique identifier (UUID). 
-No modifications to the app's code are required.
-### _2. conflicts between AUT (_Application Under Test_):_
->Sometimes can be conflicts with some dependencies the applications are using same ports for example Mobile application and Desktop application the same port 4723. Hence, the port Mobile application use was changed to 4724 to solve the dependency. 
+>Testing the Mortgage Calculator App:
+Initially, the mortgage calculator app was tested exclusively on Android devices due to the requirement 
+for an Apple developer license to distribute the app on iOS. To facilitate testing on an iPhone within our 
+existing infrastructure, an Apple developer license needs to be acquired, and the device's unique identifier (UUID) 
+must be provided. No changes to the app's code are necessary for this process.
+
+### _2. Resolving Conflicts Between Applications Under Test (AUT)::_
+>Occasionally, conflicts arise when applications share the same dependencies, such as using identical ports. For instance, 
+both a mobile application and a desktop application might be set to use port 4723. To resolve this conflict, 
+the mobile application's port was changed to 4724, eliminating the dependency issue.
