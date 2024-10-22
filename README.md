@@ -34,7 +34,7 @@ The project is an example of infrastructure for automation testing of different 
 * Support of Different Clients/Browsers
 * Failure Mechanism
 * Common Functionality
-* External Files Support (XML,CSV)
+* External Files Support (XML,CSV,JSON)
 * Reporting System (including screenshots)
 * DB support
 * CI support  
